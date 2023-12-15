@@ -7,7 +7,7 @@
     android:background="#323232"
     android:paddingHorizontal="14dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout_action_bar"
@@ -80,7 +80,7 @@
         android:minHeight="40dp"
         android:layout_height="wrap_content"
         android:importantForAutofill="no"
-        android:background="null"
+        android:background="@null"
         android:inputType="text" />
 
     <TextView
